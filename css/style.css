@@ -132,8 +132,17 @@ ul,ol{
 /*-------------------- header/ --------------------------*/
 /*-------------------  main/--------------------------*/
 
-.carousel{
+.carousel-wrapper{
     width:1440px;
     height:500px;
+    overflow:hidden;
+}
+.carousel-wrapper> .carousel{
+display: flex;
+}
+
+.carousel-wrapper> .carousel>img{
+    width:1440px;
+    height: 500px;
 }
 /*------------------- footer/--------------------------*/

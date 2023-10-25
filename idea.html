@@ -10,58 +10,142 @@
 <body>
     <div class="wrap">
         <header>
-            <div class="logo">
-                <img src="images/jellypia.logo.png" alt="젤리피아 로고">
-            </div>
-            <div class="navi">
-                 <ul>
-                    <li><a href="#">회사소개</a>
-                        <ul>
-                            <li><a href="#">회사개요</a></li>
-                            <li><a href="#">경영방침</a></li>
-                            <li><a href="#">오시는길</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">브랜드소개</a>
-                        <ul>
-                            <li><a href="#">생산공정</a></li>
-                            <li><a href="#">제품소개</a></li>
-                            <li><a href="#">디자인스토리</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">커뮤니티</a>
-                        <ul>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">자료실</a></li>
-                            <li><a href="#">이벤트</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">고객센터</a>
-                        <ul>
-                            <li><a href="#">고객의소리</a></li>
-                            <li><a href="#">아이디어 제안</a></li>
-                        </ul>
-                    </li>
-                 </ul>
-            </div>
-            <div class="side-navi">
-                <a href="#"><img src="images/Lock.png" alt="로그인"></a>
-                <a href="#"><img src="images/Group.png" alt="회원가입"></a>
+            <div class="head">
+                <div class="logo">
+                    <img src="images/jellypia.logo.png" alt="젤리피아 로고">
+                </div>
+                <div class="navi">
+                     <ul class="navi-title">
+                        <li><a href="#">회사소개</a>
+                            <ul class="d-none navi-sub">
+                                <li><a href="#">회사개요</a></li>
+                                <li><a href="#">경영방침</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">브랜드소개</a>
+                            <ul class="d-none navi-sub">
+                                <li><a href="#">생산공정</a></li>
+                                <li><a href="#">제품소개</a></li>
+                                <li><a href="#">디자인스토리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="d-none navi-sub">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">자료실</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">고객센터</a>
+                            <ul class="d-none navi-sub">
+                                <li><a href="#">고객의소리</a></li>
+                                <li><a href="#">아이디어 제안</a></li>
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+                <div class="side-navi">
+                    <a href="#"><img src="images/Lock.png" alt="로그인"></a>
+                    <a href="#"><img src="images/Group.png" alt="회원가입"></a>
+                </div>
             </div>
         </header>
         <main>
-            <h2>아이디어 제안</h2>
-            <p>고객님의 소중한 제안과 의견은 젤리피아가 성장할 수 있는 큰 바탕이 됩니다.</p>
-            <div class="agree">
-                <h3>개인정보 취급 방침 동의</h3>
-                <p>개인정보 취급 방침에 동의 하신 후 서비스를 이용하실 수 있습니다</p>
-                <br>
-                <div class="checkbox">
-                    <p>개인정보 취급 방침에 동의 합니다</p>
-                    <input type="checkbox" name="agree" value="동의되었습니다!">
+            <div class="idea">
+                <div class="idea-left">
+                    <img src="images/idea.png" alt="말풍선">
+                </div>
+                <div class="idea-right">
+                    <h2>아이디어 제안</h2>
+                    <p>고객님의 소중한 제안과 의견은 젤리피아가 성장할 수 있는 큰 바탕이 됩니다.</p>
                 </div>
             </div>
+            <div class="agree">
+                <div class="agree-text">
+                    <h3>개인정보 취급 방침 동의</h3>
+                    <p>개인정보 취급 방침에 동의 하신 후 서비스를 이용하실 수 있습니다</p>
+                    <br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="agree" value="동의되었습니다!">
+                    <p>개인정보 취급 방침에 동의 합니다</p>
+                </div>
+            </div>
+            <article>
+                <fieldset>
+                    <div class="idea-list">
+                        <ul class="idea-inputs">
+                            <li class="idea-name">
+                                <span>이름</span>
+                                <div>
+                                    <input type="text" name="name" ,required>
+                                    <span class="tip"></span>
+                                </div>
+                            </li>
+                            <li class="idea-email">
+                                <span>이메일</span>
+                                <div>
+                                    <input type="email" name="이메일" ,required>@
+                                    <input type="email" name="이메일">
+                                </div>
+                            </li>
+                            <li class="idea-title">
+                                <span>제목</span>
+                                <div>
+                                    <input type="text" name="title" ,required>
+                                </div>
+                            </li>
+                            <li class="idea-file">
+                                <span>파일첨부</span>
+                                <div>
+                                    <input type="text",required>
+                                    <input type="file" name="flie" ,required>
+                                </div>
+                            </li>
+                            <li class="idea-contents">
+                                <span>내용</span>
+                                <div>
+                                    <textarea name="memo"cols="30" rows="10"></textarea>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </article>
         </main>
+        <footer>
+            <div class="foot">
+                <div class="d-flex">
+                    <div class="fo-left">
+                        <div class="sns d-flex ">
+                            <div class="sns-face sns-border"></div>
+                            <div class="sns-ins"></div>
+                        </div>
+                        <div class="left-text">
+                            <h3>C/S</h3>
+                            <h3>062-123-4567</h3>
+                            <p>AM 10:00 - PM6:00 (주말 및 공휴일 휴무)</p>
+                        </div>
+                    </div>
+                    <div class="fo-right d-flex mx5 ">
+                        <div class="fo-ri1 my5 ">
+                            <h3>FAQ</h3>
+                            <h3>문의사항</h3>
+                            <h3>경영방침</h3>
+                        </div>
+                        <div class="fo-ri2">
+                            <h3>개인정보처리방침</h3>
+                            <h3>이용약관</h3>
+                            <h3>윤리강령</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="fo-center text-center">
+                    <p>COPYRIGHT 2023 JELLYPIA CO.JLP. ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="script/main.js"></script>
 </body>

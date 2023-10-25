@@ -131,6 +131,9 @@ ul,ol{
 .gap3{
     gap:3rem;
 }
+body h2{
+    font-size: 2.5rem;
+}
 
 .wrap{
     max-width: 1440px;
@@ -153,7 +156,12 @@ ul,ol{
 }
 .navi-title>li a{
     margin:0 2rem;
-
+}
+.navi-title li{
+    border-bottom: 4px solid transparent;
+}
+.navi-title li:hover{
+    border-bottom:4px solid var(--sencond-color)
 }
 
 .side-navi img{
@@ -161,9 +169,164 @@ ul,ol{
 }
 
 /*-------------------- header/ --------------------------*/
+.data-text{
+     text-align: center;
+}
+.data-text h2{
+    font-size: 2.5rem;
+    margin: 2rem .7rem;
+}
+.grid{
+    padding: 2rem 1rem;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item{
+    width: 400px;
+    height: 400px;
+    position:relative;
+    border-radius: 1rem;
+    margin:1rem 1rem;
+    background:#dfdfdf;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-before{
+    margin: 2rem 1rem;
+}
+.btn-before input{
+    width:200px;
+    height: 70px;
+    font-size: 1.5rem;
+    background: #989898;
+    border-radius: 2.5rem;
+    color:white;
+}
+.btn-next{
+    margin: 2rem 0 5rem 0;
+}
+.btn-next input{
+    width:200px;
+    height: 70px;
+    font-size: 1.5rem;
+    background: var(--first-color);
+    border-radius: 2.5rem;
+    color:white;
+}
+.item-img{
+    position: absolute;
+    background: #989898;
+    width:350px;
+    height: 350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.data-text p {
+    font-size: 1.3rem;
+    margin-bottom:2rem;
+}
+.idea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem;
+}
+.idea-left img{
+    width:200px;
+    height: 200px;
+}
+.idea-right{
+    margin:3rem 2rem;
+}
+.idea-right h2{
+    font-size: 2.5rem;
+}
+.idea-right p{
+    font-size:1.5rem;
+    margin: 2rem 0;
+}
+.agree-text{
+    text-align: center;
+    margin-top:7rem ;
+}
+.agree-text h3{
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+}
+.agree-text p{
+    font-size: 1.25rem;
+}
+.checkbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2rem 2rem 2rem 0;
+}
+.checkbox input{
+    width:20px;
+    height: 20px;
+    margin:.27rem .5rem;
+}
+.idea-list{
+    width:960px;
+    height: 600px;
+    background: var(--first-color);
+    justify-content: center;
+    align-items: center;
+
+}
+.idea-inputs{
+    align-items: center;
+    justify-content: center;
+
+}
+.idea-name{
+    display: flex;
+    text-align:center;
+}
+
+.idea-email{
+    display: flex;
+}
+.idea-title{
+    display: flex;
+}
+.idea-file{
+    display: flex;
+}
+.idea-contents{
+    display: flex;
+}
+.d-flex textarea{
+    flex: 0 0 50%;
+}
+.carousel {
+    height: 500px;
+    background: var(--sencond-color);
+    /* overflow: hidden; */
+}
+.ca-text{
+    position:absolute;
+    right:26%;
+    margin:8rem 0 0 0;
+    font-size: 2rem;
+    z-index:10;
+}
+.ca-text p{
+    margin-bottom: 3rem;
+}
+.ca-text h2{
+    margin: 0 3rem;
+}
 .carousel img{
-    width:1440px;
-    height:420px;
+    position:relative;
+    height:500px;
 
 }
 .items{
@@ -178,13 +341,13 @@ ul,ol{
     padding:2rem 0;
 }
 .dol-left{
-    width:700px;
+    width:750px;
     height: 400px;
     background:url(../images/dolphin.png) no-repeat center/cover;
 }
 .dol-right{
     background: var(--background-gradient);
-    width:700px;
+    width:750px;
     height: 400px;
     line-height: 3rem;
 }

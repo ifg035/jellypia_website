@@ -12,7 +12,7 @@
         <header>
             <div class="head">
                 <div class="logo">
-                    <img src="images/jellypia.logo.png" alt="젤리피아 로고">
+                    <a href="index.html "><img src="images/jellypia.logo.png" alt="젤리피아 로고"></a>
                 </div>
                 <div class="navi">
                      <ul class="navi-title">
@@ -30,14 +30,14 @@
                                 <li><a href="#">디자인스토리</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">커뮤니티</a>
+                        <li><a href="data.html">커뮤니티</a>
                             <ul class="d-none navi-sub">
                                 <li><a href="#">공지사항</a></li>
                                 <li><a href="#">자료실</a></li>
                                 <li><a href="#">이벤트</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">고객센터</a>
+                        <li><a href="idea.html">고객센터</a>
                             <ul class="d-none navi-sub">
                                 <li><a href="#">고객의소리</a></li>
                                 <li><a href="#">아이디어 제안</a></li>
@@ -78,41 +78,51 @@
                         <ul class="idea-inputs">
                             <li class="idea-name">
                                 <span>이름</span>
-                                <div>
+                                <div class="idea-item1">
                                     <input type="text" name="name" ,required>
-                                    <span class="tip"></span>
                                 </div>
                             </li>
                             <li class="idea-email">
                                 <span>이메일</span>
-                                <div>
+                                <div class="idea-item2">
                                     <input type="email" name="이메일" ,required>@
                                     <input type="email" name="이메일">
                                 </div>
                             </li>
                             <li class="idea-title">
                                 <span>제목</span>
-                                <div>
+                                <div class="idea-item3">
                                     <input type="text" name="title" ,required>
                                 </div>
                             </li>
                             <li class="idea-file">
                                 <span>파일첨부</span>
-                                <div>
+                                <div class="idea-item4">
                                     <input type="text",required>
                                     <input type="file" name="flie" ,required>
                                 </div>
                             </li>
                             <li class="idea-contents">
                                 <span>내용</span>
-                                <div>
+                                <div class="idea-item5">
                                     <textarea name="memo"cols="30" rows="10"></textarea>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </fieldset>
+                <div class="idea-infotext">
+                    <p> - 접수된 내용의 개인정보는 최대 3년까지 보관되며,3년 이후 모든 개인정보는 삭제처리 됩니다.</p>
+                    <p> - 고객님들께서 전달해 주신 내용은 담당자 확인 후 이메일로 신속히 답변 드리겠습니다.</p>
+                </div>
             </article>
+            <div class="btns">
+                <div class="btn-before">
+                    <input type="submit" name="before" value="취소">
+                </div>
+                <div class="btn-next">
+                    <input type="button" name="next" value="등록">
+                </div>
         </main>
         <footer>
             <div class="foot">

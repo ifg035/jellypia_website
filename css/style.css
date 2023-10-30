@@ -163,11 +163,15 @@ body h2{
 .navi-title li:hover{
     border-bottom:4px solid var(--sencond-color)
 }
-
+.side-navi{
+    display: flex;
+}
 .side-navi img{
     margin:1rem;
 }
-
+.mo-menu{
+    display: none;
+}
 /*-------------------- header/ --------------------------*/
 .data-text{
      text-align: center;
@@ -273,7 +277,9 @@ body h2{
     height: 20px;
     margin:.27rem .5rem;
 }
-
+.mo-list-text{
+    display: none;
+}
 .idea-list{
     width:960px;
     height: 600px;
@@ -356,8 +362,8 @@ body h2{
 }
 .ca-text{
     position:absolute;
-    right:26%;
-    margin:9rem 0 0 10rem;
+    right:30%;
+    margin:9rem 0 0 7rem;
     font-size: 2rem;
     z-index:10;
 }
@@ -499,6 +505,59 @@ display: flex;
     }
     
     /*------------------- /header--------------------------*/
+    .idea-left img{
+        width:120px;
+        height: 120px;
+    }
+    .idea-right h2{
+        font-size:2rem
+    }
+    .idea-right p{
+        font-size: 1.3rem;
+    }
+    .agree-text h3{
+        font-size: 1.2rem;
+    }
+    .agree-text p{
+        font-size: 1.1rem;
+    }
+    .checkbox p {
+        font-size:1.025rem;
+    }
+    .idea-list{
+        background:var(--sencond-color);
+        width:480px;
+        height: 300px;
+        margin:0 auto;
+    }
+    .mo-menu{
+        margin-top: 0.785rem;
+    }
+    .mo-list-text{
+        display: block;
+        text-align: center;
+    }
+    .mo-list-text h2{
+        font-size: 1.3rem;
+        margin:0 3rem;
+        padding: 2rem;
+    }
+    .mo-list-text p{
+        margin:.5rem;
+        line-height: 1.5rem;
+    }
+    span{
+        border-bottom: 2px solid var(--first-color);
+    }
+    .idea-inputs{
+        display: none;
+    }
+    .idea-infotext{
+        width:480px;
+        height:200px;
+        margin:0 auto;
+        font-size: .95rem;
+    }
     .data-text h2{
         font-size: 2.2rem;
     }
@@ -529,6 +588,9 @@ display: flex;
         width: 600px;
         height: 300px;
     }
+    .mo-menu{
+        display: block;
+    }
     .ca-text{
         margin:5rem 0 0 3rem ;
         left:17%;
@@ -541,7 +603,7 @@ display: flex;
         margin-bottom: 2rem;
     }
     .ca-text h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin:0 0 0 2rem;
     }
     .items{

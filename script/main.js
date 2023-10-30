@@ -7,13 +7,14 @@ let isClicked = true
             console.log("현재 :"+isClicked);
             if(isClicked){
                 $(".mo-menu span").text("close");
-                $(".navi").css("display","block");
+                $("navi").css("display","block");
                 isClicked = false;
             } else{
                 $(".mo-menu span").text("menu");
-                $(".navi").css("display","none");
+                $("navi").css("display","none");
                 isClicked = true;
             }
+            
         }
     })
 });

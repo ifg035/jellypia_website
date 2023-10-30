@@ -505,8 +505,10 @@ display: flex;
     .wrap{
         overflow:hidden;
     }
-    .navi{
+    navi{
         display: none;
+    }
+    .navi{
         background-color:var(--sencond-color);
         width: 150px;
         /* 70% 해당하는 폭*/

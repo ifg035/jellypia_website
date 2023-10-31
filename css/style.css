@@ -24,6 +24,9 @@ ul,ol{
   'GRAD' 0,
   'opsz' 24
 }
+/* html{
+    font-size:20px;
+} */
 /*------------------- 리셋설정/--------------------------*/
 :root{
     --text-color:#000;
@@ -368,7 +371,7 @@ body h2{
 }
 .ca-text{
     position:absolute;
-    right:30%;
+    right:20%;
     margin:9rem 0 0 7rem;
     font-size: 2rem;
     z-index:10;
@@ -504,6 +507,12 @@ display: flex;
     }
     .wrap{
         overflow:hidden;
+        max-width: 600px;
+    }
+    .head{
+     
+        width:100%;
+        z-index:11;
     }
     navi{
         display: none;
@@ -511,11 +520,11 @@ display: flex;
     .navi{
         background-color:var(--sencond-color);
         width: 150px;
+        position: fixed;
         /* 70% 해당하는 폭*/
         height:100px;
-        position: fixed;
         right: 0;
-        top: 18.4%;
+        top: 23.2%;
         z-index: 9999;
     }
     .navi-title{
@@ -547,10 +556,20 @@ display: flex;
         font-size:1.025rem;
     }
     .idea-list{
-        background:var(--sencond-color);
-        width:480px;
-        height: 300px;
-        margin:0 auto;
+       /* display: none; */
+       width:550px;
+       height:650px;
+       margin:0 auto;
+    }
+    .idea-inputs{
+        text-align: center;
+    }
+    .idea-name{
+        align-items: center;
+    }
+    .idea-name span{
+        margin-top:1rem;
+        /* align-items: center; */
     }
     .mo-menu{
         margin-top: 0.785rem;
@@ -574,7 +593,7 @@ display: flex;
         border-bottom: 2px solid var(--first-color);
     }
     .idea-inputs{
-        display: none;
+        /* display: none; */
     }
     .idea-infotext{
         width:480px;
@@ -582,6 +601,7 @@ display: flex;
         margin:0 auto;
         font-size: .95rem;
     }
+   
     .data-text h2{
         font-size: 2.2rem;
     }
@@ -603,12 +623,12 @@ display: flex;
     {
         display: none;
     }
-    .carousel{
+    .mo-carousel{
         width:600px;
         height: 300px;
         background:none;
     }
-    .carousel img{
+    .mo-carousel img{
         width: 600px;
         height: 300px;
     }

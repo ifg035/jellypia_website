@@ -231,11 +231,67 @@ body h2{
     border-radius: 2.5rem;
     color:white;
 }
-.item-img{
+.item1-img{
+    background: url(../images/already.jpg) no-repeat center/cover ;
     position: absolute;
-    background: #989898;
     width:350px;
     height: 350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item2-img{
+    background: url(../images/news_content.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item3-img{
+    background: url(../images/membership.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item4-img{
+    background: url(../images/공지사항.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item5-img{
+    background: url(../images/winter-sale.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item6-img{
+    background: url(../images/추석.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item7-img{
+    background: url(../images/summer\ holibay.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item8-img{
+    background: url(../images/공지사항.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
+    margin: 25px 25px;
+    border-radius: 1rem;
+}
+.item9-img{
+    background: url(../images/new-year.jpg) no-repeat center/cover  ;
+    height: 350px;
+    width:350px;
     margin: 25px 25px;
     border-radius: 1rem;
 }
@@ -522,9 +578,8 @@ display: flex;
         width: 150px;
         position: fixed;
         /* 70% 해당하는 폭*/
-        height:100px;
         right: 0;
-        top: 23.2%;
+        top:94px;
         z-index: 9999;
     }
     .navi-title{
@@ -596,8 +651,7 @@ display: flex;
         /* display: none; */
     }
     .idea-infotext{
-        width:480px;
-        height:200px;
+        width:550px;
         margin:0 auto;
         font-size: .95rem;
     }

@@ -450,6 +450,16 @@ body h2{
     margin:5rem 0;
     padding:2rem;
 }
+.item-text h3{
+    font-size:1.1rem;
+    align-items: center;
+    color:#2596FF;
+}
+.item2-text h3{
+    font-size:1.1rem;
+    align-items: center;
+    color:#2596FF;
+}
 .Dolbox{
     margin:7rem 0;
     padding:2rem 0;
@@ -484,6 +494,25 @@ body h2{
     background:var(--four-color);
     font-weight:bold;
     font-size: 1rem;
+}
+.news{
+    display: flex;
+    justify-content:space-around;
+    margin: 2rem auto;
+    padding:2rem;
+}
+.news1-img{
+    background:url(../images/mainjelly1.png) no-repeat center/cover ;
+    width:300px;
+    height:300px
+}
+.news1 button{
+   position:absolute
+}
+.news2-img{
+    background:url(../images/mainjelly1.png) no-repeat center/cover ;
+    width:300px;
+    height:300px
 }
 /*-------------------  main/--------------------------*/
 
@@ -647,9 +676,7 @@ display: flex;
     span{
         border-bottom: 2px solid var(--first-color);
     }
-    .idea-inputs{
-        /* display: none; */
-    }
+  
     .idea-infotext{
         width:550px;
         margin:0 auto;
@@ -731,9 +758,11 @@ display: flex;
     .item-text h3{
         font-size:1.1rem;
         align-items: center;
+        color:#2596FF;
     }
     .item2-text h3{
         font-size: 1.1rem;
+        color:#2596FF;
     }
     .item2-text p{
         font-size: 1rem;

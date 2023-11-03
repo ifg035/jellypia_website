@@ -13,8 +13,8 @@ let isClicked = true
                 $(".mo-menu span").text("menu");
                 $("navi").css("display","none");
                 isClicked = true;
-            }
-            
+            }    
         }
     })
+
 });
